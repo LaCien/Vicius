@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicius</title>
+    <link rel="shortcut icon" href="images/logo/logo-barra.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="home_black_version">
+        <header class="header_area header_black">
+            <!-- header  -->
+            <div class="header_top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="social_icone">
+                                <ul>
+                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="top_right text-right">
+                                <ul>
+                                    <li class="language">
+                                        <a href="#">Español <i class="ion-chevron-down"></i></a>
+                                        <ul class="dropdown_language">
+                                            <li><a href="#">French</a></li>
+                                            <li><a href="#">Germany</a></li>
+                                            <li><a href="#">English</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="currency">
+                                        <a href="#">Moneda <i class="ion-chevron-down"></i></a>
+                                        <ul class="dropdown_currency">
+                                            <li><a href="#">USD - Dollar</a></li>
+                                            <li><a href="#">EUR - Euro</a></li>
+                                            <li><a href="#">ARS - Peso</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="top_links">
+                                        <a href="#">Mi Cuenta <i class="ion-chevron-down"></i></a>
+                                        <ul class="dropdown_links">
+                                            <li><a href="#">Ingresar</a></li>
+                                            <li><a href="#">Mis datos</a></li>
+                                            <li><a href="#" data-target="#cart" data-toggle="modal">Corro de compras </a></li>
+                                            <li><a href="#">Favoritos</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header -->
+
+            <!-- mitad de header -->
+            <div class="header_middel">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-5">
+                            <div class="home_contact">
+                                <div class="contact_icone">
+                                    <img src="images/icon/icon_phone.png" alt="">
+                                </div>
+                                <div class="contact_box">
+                                    <p>Telefonos: <a href="#">1234567894 - 987654321</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-3 col-4">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-7 col-6">
+                            <div class="middel_right">
+                                <div class="search_btn">
+                                    <a href="#"><i class="ion-ios-search-strong"></i></a>
+                                    <div class="dropdown_search">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search Product ....">
+                                            <button type="submit"><i class="ion-ios-search-strong"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="wishlist_btn">
+                                    <a href="#"><i class="ion-heart"></i></a>
+                                </div>
+                                <div class="cart_link" data-target="#cart" data-toggle="modal" >
+                                    <a href="#"><i class="ion-android-cart "></i></a>
+
+<!--                                     <div>Precio total:<span class="total-cart"></span></div> --- 
+ -->
+ <span class="cart_quantity total-count"></span>
+
+                                  
+ <!-- Modal -->
+     <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Productos</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             </div>
+             <div class="modal-body">
+             <table class="show-cart table">
+                 
+             </table>
+             <div>Precio total:<span class="total-cart"></span></div>
+             </div>
+             <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+             <button type="button" class="btn btn-primary" id="completar-compra">Comprar ahora!</button>
+             <button class="clear-cart btn btn-danger">Limpiar Compra</button>
+             </div>
+         </div>
+         </div>
+         </div> 
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            <!-- header-->
+
+            <!-- header bottoms -->
+
+            <div class="header_bottom sticky-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="main_menu_inner">
+                                <div class="logo_sticky">
+                                    <a href="#"><img src="images/logo/logo.png" alt="logo"></a>
+                                </div>
+                                <div class="main_menu">
+                                    <nav>
+                                        <ul>
+                                            <li class="active">
+                                                
+                                            </li>
+                                            <li>
+                                                <a href="#">Categorias <i class="ion-chevron-down"></i></a>
+                                                <ul class="sub_menu pages">
+                                                    <li>                                                        
+                                                        <ul>
+                                                            <li><a href="#">Acción</a></li>
+                                                            <li><a href="#">Shooter</a></li>
+                                                            <li><a href="#">Rol</a></li>
+                                                            <li><a href="#">Simulacion</a></li>
+                                                            <li><a href="#">Deportes</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    
+
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ofertas <i class="ion-chevron-down"></i></a>
+                                                <ul class="sub_menu pages">
+                                                    <li><a href="#">50%</a></li>
+                                                    <li><a href="#">Revajas de Verano</a></li>
+                                                    <li><a href="#">Descuento con codigo</a></li>
+                                                    <li><a href="#">80% - 90% </a></li>
+                                                    <li><a href="#">Proximos descuentos</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="#">Colecciones<i class="ion-chevron-down"></i></a>
+                                                <ul class="sub_menu pages">
+                                                    <li><a href="#">Sagas</a></li>
+                                                    <li><a href="#">Remaster</a></li>
+                                                    <li><a href="#">Gold colection</a></li>
+                                                    <li><a href="#">Retros</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header -->
+        </header>
+
+<!-- productos -->
+
+<div id="contenido" class="row center" style="display: none;"></div>
+        
+
+
+
+<!-- footer -->
+<footer class="footer_widgets footer_black">
+    <div class="container">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="widgets_container contact_us">
+                        <h3>Sobre Vicius</h3>
+                        <div class="footer_contact">                                   
+                            <p>Telefonos : <a href="#">123456789 | 321654987</a></p>
+                            <p>Email : viciusgames@shop.com</p>
+                            <ul>
+                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                <li><a href="#"><i class="ion-social-rss"></i></a></li>
+                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                                <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-4 col-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>Información</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">Sobre Nosotros</a></li>                                        
+                                <li><a href="#">Servicios</a></li> 
+                                <li><a href="#">Frequently Questions</a></li>                                      
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+               
+        <div class="footer_bottom">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright_area">
+                        <p>Copyright &copy; 2020 <a href="#">Vicius</a> All rights Reserved.</p>
+                        <img src="images/icon/papyel2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- footer  -->
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

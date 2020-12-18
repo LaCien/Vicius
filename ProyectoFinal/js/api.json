@@ -1,0 +1,34 @@
+[
+   {
+      "id": 1,
+      
+      "poster": "./images/json/last.jpg",
+      "titulo": "The Last of Us Part II",
+      "categoria": "Aventura",
+      "genero": "Aventura",
+      "resumen": "Cuando un evento violento perturba esa paz, Ellie se embarca en un viaje implacable para llevar a cabo justicia y encontrar una solución. ... Esta nueva sinopsis puede que no revele completamente el origen críptico de la nueva sed de sangre de Ellie, pero confirma que su venganza viene después de un “evento violento.",
+      "precio": "ARS $ 3500",
+      "dataName": "The Last of Us Part II",
+      "precioReal": 3500
+       
+      
+   },
+   {
+      "id": 2,
+      "poster": "./images/json/ghost.jpg",
+      "titulo": "Ghost of Tsushima",      
+      "genero": "Acción",
+      "resumen": "Afila tu katana y tensa el arco en tu rol como Jin, un maltratado samurái que permanece en la isla con la esperanza de acabar con el despiadado khan y su salvaje imperio. Entre los bosques de bambú, castillos ornamentados y paisajes espectaculares, solo queda un alma valerosa capaz de luchar contra toda posibilidad.",
+      "precio":"ARS $ 2500"
+      
+   },
+   {
+      "id": 3,
+      
+      "poster": "./images/json/doom.png",
+      "titulo": "Doom Eternal",     
+      "genero": "Shooter",
+      "resumen": "Los jugadores toman el papel de Doom Slayer, un antiguo guerrero que lucha contra las fuerzas demoníacas del Infierno desde una perspectiva en primera persona. ... Armamentos como misiles, lanzagranadas y lanzallamas también se pueden unir a la armadura de Doom Slayer. También se introducen nuevas mecánicas de movimiento.",
+      "precio": "ARS $ 2000"
+   }
+]
